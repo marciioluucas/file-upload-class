@@ -1,0 +1,30 @@
+{
+  "name": "marciioluucas/archive-upload-class",
+  "description": "Simple class that simplify your file uploads with PHP.",
+  "keywords": [
+    "uploading",
+    "files uploading",
+    "uploader class",
+    "simple uploader class"
+  ],
+  "type": "framework",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcio Lucas",
+      "email": "marciioluucas@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "src\\": [
+        "src/file",
+        "tests/file"
+      ]
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "6.3.0"
+  }
+}
