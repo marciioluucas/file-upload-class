@@ -12,10 +12,10 @@ It's a simple class you'll pass to the file variable ($ _FILES) that comes from 
 
 Simple example
 -------------
-```
-    $file = new File($_FILES['foo']);
-	$file->setDestinationPath('./uploads');
-	$file->save();
+```php
+$file = new File($_FILES['foo']);
+$file->setDestinationPath('./uploads');
+$file->save();
 ```
 
 
