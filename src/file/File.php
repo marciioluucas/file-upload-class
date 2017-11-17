@@ -124,7 +124,7 @@ class File
     /**
      * @throws Exception
      */
-    public function save()
+    public function upload()
     {
         try {
             $this->moveUploadedFile();
